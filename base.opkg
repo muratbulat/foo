@@ -1,0 +1,1 @@
+opkg update && opkg install luci-app-adblock luci-app-shadowsocks-libev luci-app-nlbwmon luci-app-wol tcpdump nano wget
