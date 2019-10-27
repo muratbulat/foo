@@ -1,3 +1,1 @@
-opkg update && opkg install luci-app-sqm luci-app-adblock luci-app-shadowsocks-libev luci-app-nlbwmon luci-app-wol iptables-mod-tee kmod-ipt-tee ca-bundle ca-certificates tcpdump nano wget
-
-opkg update && opkg install luci-app-shadowsocks-libev luci-app-nlbwmon tcpdump nano wget
+opkg update && opkg install luci-app-sqm luci-app-adblock luci-app-shadowsocks-libev luci-app-nlbwmon luci-app-wol stubby iptables-mod-tee kmod-ipt-tee ca-bundle ca-certificates tcpdump nano wget
