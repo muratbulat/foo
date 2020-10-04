@@ -1,1 +1,6 @@
-start "" "C:\Program Files\Mozilla Firefox\firefox.exe" --kiosk --private-window http://UBSSERVER:8751/web/home.html
+@echo off
+title UBS Kiosk Starter
+set ffdir="C:\Program Files\Mozilla Firefox\firefox.exe"
+set ubsurl=https://foo.com
+taskkill /f /im explorer.exe
+start "" %ffdir% --kiosk --private-window %ubsurl%
