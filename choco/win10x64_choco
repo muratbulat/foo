@@ -4,4 +4,4 @@ choco install adobereader flashplayerplugin googlechrome flashplayeractivex jre8
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 
 
-choco install choco install googlechrome adobereader flashplayerplugin flashplayeractivex jre8 firefox 7zip.install flashplayerppapi vcredist140 k-litecodecpackfull zoom spotify office2019proplus
+choco install choco install googlechrome adobereader flashplayerplugin flashplayeractivex jre8 firefox 7zip.install flashplayerppapi vcredist140 k-litecodecpackfull zoom spotify office2019proplus --params '/Language:en-tr'
